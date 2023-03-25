@@ -45,15 +45,15 @@ async def start(client, message):
             InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/+R51KNo5WW3djOTU9')
+            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url=f'https://t.me/+R51KNo5WW3djOTU9')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
             ],[
-            InlineKeyboardButton('👑 𝙾𝚠𝚗𝚎𝚛', url='http://t.me/As_3523')
+            InlineKeyboardButton('👑 𝙾𝚠𝚗𝚎𝚛', url=f'http://t.me/As_3523')
             ],[
-            InlineKeyboardButton('⚜️ 𝙻𝚎𝚎𝚌𝚑', url='https://t.me/+YwyVIDbBMQRhZDdl'),
-            InlineKeyboardButton('⚜️ 𝙼𝚘𝚟𝚒𝚎', url='𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/+𝚓2𝙲𝚀𝚅7𝙱𝚑𝙼4𝚝𝚖𝙽𝚣𝚉𝚕')
+            InlineKeyboardButton('⚜️ 𝙻𝚎𝚎𝚌𝚑', url=f'https://t.me/+YwyVIDbBMQRhZDdl'),
+            InlineKeyboardButton('⚜️ 𝙼𝚘𝚟𝚒𝚎', url=f'𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/+𝚓2𝙲𝚀𝚅7𝙱𝚑𝙼4𝚝𝚖𝙽𝚣𝚉𝚕')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -96,15 +96,15 @@ async def start(client, message):
             InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/+R51KNo5WW3djOTU9')
+            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url=f'https://t.me/+R51KNo5WW3djOTU9')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
             ],[
-            InlineKeyboardButton('👑 𝙾𝚠𝚗𝚎𝚛', url='http://t.me/As_3523')
+            InlineKeyboardButton('👑 𝙾𝚠𝚗𝚎𝚛', url=f'http://t.me/As_3523')
             ],[
-            InlineKeyboardButton('⚜️ 𝙻𝚎𝚎𝚌𝚑', url='https://t.me/+YwyVIDbBMQRhZDdl'),
-            InlineKeyboardButton('⚜️ 𝙼𝚘𝚟𝚒𝚎', url='𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/+𝚓2𝙲𝚀𝚅7𝙱𝚑𝙼4𝚝𝚖𝙽𝚣𝚉𝚕')
+            InlineKeyboardButton('⚜️ 𝙻𝚎𝚎𝚌𝚑', url=f'https://t.me/+YwyVIDbBMQRhZDdl'),
+            InlineKeyboardButton('⚜️ 𝙼𝚘𝚟𝚒𝚎', url=f'𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/+𝚓2𝙲𝚀𝚅7𝙱𝚑𝙼4𝚝𝚖𝙽𝚣𝚉𝚕')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
