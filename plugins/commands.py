@@ -50,10 +50,6 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
             ],[
-            InlineKeyboardButton('⚜️ 𝙻𝚎𝚎𝚌𝚑 𝙶𝚛𝚙', url='https://t.me/+YwyVIDbBMQRhZDdl')
-            ],[
-            InlineKeyboardButton('⚜️ 𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚙', url='𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/+𝚓2𝙲𝚀𝚅7𝙱𝚑𝙼4𝚝𝚖𝙽𝚣𝚉𝚕')
-            ],[
             InlineKeyboardButton('👑 𝙾𝚠𝚗𝚎𝚛', url='http://t.me/As_3523')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -101,10 +97,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
-            ],[
-            InlineKeyboardButton('⚜️ 𝙻𝚎𝚎𝚌𝚑 𝙶𝚛𝚙', url='https://t.me/+YwyVIDbBMQRhZDdl')
-            ],[
-            InlineKeyboardButton('⚜️ 𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚙', url='𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/+𝚓2𝙲𝚀𝚅7𝙱𝚑𝙼4𝚝𝚖𝙽𝚣𝚉𝚕')
             ],[
             InlineKeyboardButton('👑 𝙾𝚠𝚗𝚎𝚛', url='http://t.me/As_3523')
         ]]
