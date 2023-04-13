@@ -72,7 +72,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 86400))
 SELF_DELETE = environ.get('SELF_DELETE', False)
-if SELF_DELETE == "True":
+if SELF_DELETE == "False":
     SELF_DELETE = True
 
     # Download Tutorial Button #
